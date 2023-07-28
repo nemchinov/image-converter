@@ -1,0 +1,31 @@
+{
+  "name": "image-converter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node ./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nemchinov/image-converter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nemchinov/image-converter/issues"
+  },
+  "homepage": "https://github.com/nemchinov/image-converter#readme",
+  "dependencies": {
+    "@types/node": "20.4.5",
+    "dotenv": "16.3.1",
+    "eslint": "7.24.0",
+    "sharp": "0.32.4",
+    "typescript": "4.3.5"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0",
+    "nodemon": "^3.0.1"
+  }
+}
